@@ -1,0 +1,74 @@
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: linear-gradient(to right,#4568DC,#B06AB3);
+}
+
+.heading {
+  text-align: center;
+  font-style: italic;
+  position: relative;
+  top : 50px;
+  font-size: 100px;
+  color : #fff;
+  cursor: pointer;
+}
+
+.table__game {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+  border: 2px solid rgb(45, 43, 43);
+}
+
+.table__row {
+  display: inline-block;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.table__col {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+  border: 3px solid #ccc;
+  font-size: 30px;
+}
+
+.table__col span {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color : #fff;
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  top : 30%;
+  transform: translateX(-50%);
+  border: none;
+  padding : 10px 30px;
+  border-radius: 18px;
+}
+
+.table__col:hover {
+  background: #ccc;
+}
+
+.table__col:hover span {
+  color : #000;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+/* animetion winner */
